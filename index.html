@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif;}
+    body {line-height: 1.6; color: #333;}
+    header {background: #222; color: #fff; padding: 20px 0; text-align: center;}
+    header h1 {font-size: 2.2rem;}
+    header p {font-size: 1.2rem; color: #aaa;}
+    nav {background: #444; padding: 10px; text-align: center;}
+    nav a {color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold;}
+    section {padding: 50px 20px; max-width: 900px; margin: auto;}
+    h2 {text-align: center; margin-bottom: 20px; color: #222;}
+    .about, .projects, .contact {margin-top: 40px;}
+    .skills {display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;}
+    .skill {background: #eee; padding: 10px 20px; border-radius: 5px;}
+    .project {background: #f9f9f9; padding: 15px; margin: 10px 0; border-left: 5px solid #444;}
+    footer {background: #222; color: #fff; text-align: center; padding: 20px;}
+    footer a {color: #00aced; text-decoration: none; margin: 0 10px;}
+    @media(max-width: 600px){
+      header h1 {font-size: 1.6rem;}
+      nav a {display: block; margin: 10px 0;}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Amith Harikantra</h1>
+    <p>BE in Computer Science | Aspiring Software Engineer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a recent BE graduate in Computer Science Engineering with a CGPI of 7.9. 
+       Passionate about coding, testing, and software development. 
+       I can speak Kannada, Hindi, and English. 
+       My hobbies include drawing, coding, swimming, and cricket.</p>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">Python</div>
+      <div class="skill">SQL</div>
+      <div class="skill">Manual Testing</div>
+      <div class="skill">HTML & CSS</div>
+      <div class="skill">Java</div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Android Job & Freelancing Application (JOBQUEST)</h3>
+      <p>Developed an Android app connecting job seekers with freelancing opportunities. 
+         Built with Java and XML.</p>
+    </div>
+    <div class="project">
+      <h3>Hospital Management DBMS</h3>
+      <p>Designed a database management system for hospital operations using SQL.</p>
+    </div>
+    <div class="project">
+      <h3>LLM Chatbot for PDFs</h3>
+      <p>Created an AI chatbot using LangChain & Gemini API to answer queries from uploaded PDFs.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:yourmail@gmail.com">yourmail@gmail.com</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+    <p>GitHub: <a href="#">github.com/yourusername</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Amith Harikantra | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
